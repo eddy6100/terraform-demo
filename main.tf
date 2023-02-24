@@ -10,9 +10,9 @@ terraform {
 provider "google" {
   credentials = file("<NAME>.json")
 
-  project = "<PROJECT_ID>"
-  region  = "us-central1"
-  zone    = "us-central1-c"
+  project = "hip-gecko-322810"
+  region  = "europe-west1"
+  zone    = "europe-west1-c"
 
 }
 
