@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "google" {
-  credentials = file("hip-gecko-322810-0188650f5580.json")
+  credentials = file("hip-gecko-322810-cbd857d3a7cd.json")
 
   project = "hip-gecko-322810"
   region  = "europe-west1"
